@@ -1,3 +1,5 @@
+# 1. Use pandas read_excel() to read the EcarSalesByCountryAndYear2.xlsx into a DataFrame, then display the DataFrame
+
 import pandas as pd
 
 # Especifica la ruta del archivo .xlsx
