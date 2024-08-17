@@ -1,6 +1,8 @@
 # TP iglesias
 
 ## -----------------------------------------
+## Sales country years
+
 ## Exercises - pandas
 
 1. Use pandas read_excel() to read the EcarSalesByCountryAndYear2.xlsx into a DataFrame, then display the DataFrame
@@ -37,8 +39,19 @@
 
 
 ## -----------------------------------------
-## 
+## Car adoption
 
-## 
+1. Read the file EcarSalesByCountryAndYear.csv into a DataFrame; display the DataFrame
+2. Re-read the .csv file into a DataFrame, using the Country as the DataFrame's index; display the DataFrame
+3. Calculate the sales growth between the last two years and append this to the DataFrame as a column called 'Growth'
+4. If your growth value is in decimal, rescale the growth column to a percentage
+5. Round the growth column to 1 decimal place
 
-1. 
+6. Display the DataFrame sorted by Growth, from high to low
+7. Create a new DataFrame called dfRecent, with only columns Sales2021 and Sales2020
+8. From dfRecent, use a filter to display only United States and Canada
+9. Use dfRecent to display the total sales across countries for 2020 and 2021
+10. Calculate and display sales by Continent by Year
+11. What was the 2022 vs. 2021 growth in electric car sales, by continent?
+
+
